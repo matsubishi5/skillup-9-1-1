@@ -1,0 +1,419 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.clearfix::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+header {
+	width: 100%;
+	height: 70px;
+	background-color: #EC715F
+}
+
+.header-container {
+	width: 1024px;
+	height: 70px;
+	margin: 0 auto;
+}
+
+.header-link {
+	color: #FAFAFAFA;
+	text-decoration: none;
+}
+
+.header-logo {
+	height: 70px;
+	float: left;
+}
+
+.nav-list {
+	line-height: 70px;
+	text-align: right;
+}
+
+.nav-list-item {
+	color: #FAFAFA;
+	font-size: 16px;
+	display: inline-block;
+	margin: 0 30px;
+}
+
+main {
+	width: 100%;
+}
+
+#main-visual {
+	width: 100%;
+	height: 650px;
+	text-align: center;
+	background-image: url(img/mv.png);
+	background-size: cover;
+	background-position: center;
+}
+
+.main-visual-title {
+	color: #FAFAFAFA;
+	font-size: 64px;
+	padding: 200px 0 10px 0;
+}
+
+.main-visual-text {
+	color: #FAFAFA;
+	font-size: 20px;
+}
+
+#portfolio {
+	width: 100%;
+	background-color: #ECEFF1;
+}
+
+.portfolio-container {
+	width: 920px;
+	margin: 0 auto;
+}
+
+.title {
+	color: #000000;
+	font-size: 32px;
+	padding-top: 90px;
+	padding-bottom: 8px;
+	text-align: center;
+}
+
+.border {
+	width: 70px;
+	height: 3px;
+	background-color: #EC715F;
+	margin: 0 auto;
+}
+
+.text {
+	color: #000000;
+	font-size: 16px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	text-align: center;
+}
+
+.box {
+	width: 300px;
+	height: 250px;
+	float: left;
+}
+
+.box:nth-child(1) {
+	background-image: url(img/sketch.jpg);
+	background-size: cover;
+	background-position: center;
+	margin-bottom: 10px;
+}
+
+.box:nth-child(2) {
+	background-image: url(img/websuku.png);
+	background-size: cover;
+	background-position: center;
+	margin-bottom: 10px;
+}
+
+.box:nth-child(3) {
+	background-image: url(img/write.jpg);
+	background-size: cover;
+	background-position: center;
+	margin-bottom: 10px;
+}
+
+.box:nth-child(4) {
+	background-image: url(img/webcamp.png);
+	background-size: cover;
+	background-position: center;
+	margin-bottom: 90px;
+}
+
+.box:nth-child(5) {
+	background-image: url(img/talk.jpg);
+	background-size: cover;
+	background-position: center;
+	margin-bottom: 90px;
+}
+
+.box:nth-child(6) {
+	background-image: url(img/webcamp-mother.png);
+	background-size: cover;
+	background-position: center;
+	padding-bottom: 90px;
+}
+
+.box:nth-child(1),
+.box:nth-child(2),
+.box:nth-child(4),
+.box:nth-child(5) {
+	margin-right: 10px;
+}
+
+#feature {
+	width: 100%;
+}
+
+.feature-container {
+	width: 980px;
+	margin: 0 auto;
+}
+
+.feature-container {
+	width: 980px;
+	margin: 0 auto;
+}
+
+.strength {
+	width: 320px;
+	height: auto;
+	padding-bottom: 90px;
+	text-align: center;
+	float: left;
+}
+
+i {
+	font-size: 60px;
+	padding-bottom: 10px;
+}
+
+.strength-title {
+	color: #000000;
+	font-size: 20px;
+	padding-bottom: 10px;
+}
+
+.strength-text {
+	color: #000000;
+	font-size: 16px;
+}
+
+.strength:nth-child(1),
+.strength:nth-child(2) {
+	margin-right: 10px;
+}
+
+#profile {
+	width: 100%;
+	background-color: #ECEFF1;
+}
+
+.profile-container {
+	width: 1024px;
+	margin: 0 auto;
+}
+
+.myprofile-container {
+	width: 512px;
+	padding-bottom: 90px;
+	float: left;
+}
+
+.profile-image {
+	width: 250px;
+	height: 250px;
+	border-radius: 50%;
+	margin: 0 auto;
+	display: block;
+}
+
+.profile-title {
+	color: #000000;
+	font-size: 20px;
+	padding-bottom: 5px;
+}
+
+.profile-text {
+	color: #000000;
+	font-size: 16px;
+	padding-bottom: 20px;
+}
+
+#contact {
+	width: 100%;
+}
+
+.contact-container {
+	width: 800px;
+	margin: 0 auto;
+	padding-bottom: 90px;
+}
+
+.content-container {
+	width: 400px;
+	float: left;
+	display: inline-block;
+}
+
+.access-container-left {
+	width: 130px;
+	margin: 0 auto;
+}
+
+.access-container-right {
+	width: 200px;
+	margin: 0 auto;
+}
+
+.contact-title {
+	color: #000000;
+	font-size: 20px;
+	padding-bottom: 5px;
+}
+
+.contact-link {
+	color: #000000;
+	padding-bottom: 20px;
+}
+
+footer {
+	width: 100%;
+	height: 60px;
+	background-color: #EC715F;
+	text-align: center;
+	line-height: 60px;
+}
+
+.footer-text {
+	color: #FAFAFA;
+	font-size: 16px;
+}
+
+@media screen and (max-width:768px) {
+	header {
+		width: 100%;
+		height: 50px;
+		background-color: #EC715F
+	}
+
+	.header-container {
+		width: 90%;
+		height: 50px;
+		margin: 0 auto;
+	}
+
+	.header-link {
+		display: none;
+	}
+
+	.header-logo {
+		height: 50px;
+		float: left;
+	}
+
+	.nav-list {
+		height: 50px;
+	}
+
+	#main-visual {
+	width: 100%;
+	text-align: center;
+	background-image: url(img/code.png);
+	}
+
+	.main-visual-title {
+		font-size: 40px;
+	}
+
+	.main-visual-text {
+		font-size: 18px;
+	}
+
+	#portfolio {
+		width: 100%;
+		background-color: #ECEFF1;
+	}
+
+	.portfolio-container {
+		width: 90%;
+		padding-bottom: 90px;
+	}
+
+	.title {
+		color: #000000;
+		font-size: 32px;
+		padding-top: 90px;
+		padding-bottom: 8px;
+		text-align: center;
+	}
+
+	.border {
+		width: 70px;
+		height: 3px;
+		background-color: #EC715F;
+		margin: 0 auto;
+	}
+
+	.text {
+		color: #000000;
+		font-size: 16px;
+		padding-top: 30px;
+		padding-bottom: 30px;
+		text-align: center;
+	}
+
+	.box {
+		width: 300px;
+		height: 250px;
+		float: none;
+		margin: 0 auto 10px;
+	}
+
+	.box:nth-child(1) {
+		background-image: url(img/sketch.jpg);
+		background-size: cover;
+		background-position: center;
+		margin-bottom: 10px;
+		display: none;
+	}
+
+	.box:nth-child(2) {
+		background-image: url(img/websuku.png);
+		background-size: cover;
+		background-position: center;
+		margin-bottom: 10px;
+	}
+
+	.box:nth-child(3) {
+		background-image: url(img/write.jpg);
+		background-size: cover;
+		background-position: center;
+		margin-bottom: 10px;
+		display: none;
+	}
+
+	.box:nth-child(4) {
+		background-image: url(img/webcamp.png);
+		background-size: cover;
+		background-position: center;
+		margin-bottom: 10px;
+	}
+
+	.box:nth-child(5) {
+		background-image: url(img/talk.jpg);
+		background-size: cover;
+		background-position: center;
+		margin-bottom: 10px;
+		display: none;
+	}
+
+	.box:nth-child(6) {
+		background-image: url(img/webcamp-mother.png);
+		background-size: cover;
+		background-position: center;
+		margin-bottom: 90px;
+	}
+
+	.box:nth-child(2),
+	.box:nth-child(4) {
+		margin: 0 auto 10px;
+	}
+
+	}
+}
